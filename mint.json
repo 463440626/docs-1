@@ -1,0 +1,130 @@
+{
+"$schema": "https://mintlify.com/schema.json",
+
+  "name": "OpenYiDA Docs",
+
+"logo": {
+    "dark": "/images/logo-dark.png",
+    "light": "/images/logo-light.png",
+    "href": "https://github.com/openyida/openyida"
+  },
+
+  "favicon": "/images/favicon.png",
+
+  "colors": {
+    "primary": "#0066FF",
+    "light": "#33AAFF",
+    "dark": "#0044CC",
+    "anchors": {
+      "from": "#0066FF",
+   "to": "#7B3FE4"
+    },
+    "background": {
+      "dark": "#0A0F1A"
+  }
+  },
+
+  "topbarLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/openyida/openyida"
+    }
+  ],
+
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://www.npmjs.com/package/openyida"
+  },
+
+  "tabs": [
+    {
+      "name": "Guides",
+      "url": "docs/guides"
+    }
+  ],
+
+  "anchors": [
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/openyida/openyida"
+    },
+    {
+      "name": "npm",
+      "icon": "npm",
+      "url": "https://www.npmjs.com/package/openyida"
+    },
+    {
+      "name": "Community",
+      "icon": "comments",
+      "url": "https://github.com/openyida/openyida/discussions"
+    }
+  ],
+
+  "navigation": [
+    {
+   "group": "Get Started",
+      "pages": [
+  "docs/introduction/overview",
+      "docs/introduction/demo",
+   "docs/quickstart"
+    ]
+    },
+    {
+  "group": "Features",
+ "pages": [
+        "docs/features/common-prompts",
+        "docs/features/skills",
+   "docs/features/use-cases"
+      ]
+    },
+    {
+      "group": "Architecture",
+      "pages": [
+     "docs/architecture/overview",
+ "docs/architecture/project-structure"
+      ]
+    },
+    {
+      "group": "Guides",
+      "pages": [
+      "docs/guides/best-practices",
+      "docs/guides/faq"
+      ]
+    },
+    {
+      "group": "Community",
+   "pages": [
+        "docs/contributing",
+        "docs/license"
+  ]
+    }
+  ],
+
+  "footerSocials": {
+    "github": "https://github.com/openyida/openyida",
+ "website": "https://www.npmjs.com/package/openyida"
+  },
+
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
+  },
+
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": false
+  },
+
+  "search": {
+    "prompt": "Search OpenYiDA docs..."
+  },
+
+"metadata": {
+    "og:title": "OpenYiDA — Build Yida Apps with AI",
+    "og:description": "Zero-config AI-powered CLI to build Yida apps from natural language. Supports Claude Code, Cursor, OpenCode, Wukong and more.",
+    "og:image": "https://img.alicdn.com/imgextra/i4/O1CN017uyK3q1UUfbv7Z8oh_!!6000000002521-2-tps-2648-1382.png",
+    "twitter:card": "summary_large_image"
+  }
+}
